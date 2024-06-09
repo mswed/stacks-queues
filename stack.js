@@ -42,7 +42,6 @@ class Stack {
     } else {
       const originalFirst = this.first;
       this.first = originalFirst.next;
-      originalFirst.next = null;
       this.size--;
 
       return originalFirst.val;

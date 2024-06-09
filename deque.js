@@ -59,7 +59,6 @@ class Deque {
    * and return its value. Should throw an error if the queue is empty. */
 
   popLeft() {
-    console.log('popping', this.first)
     // Do we have any items in the queue?
     if (this.isEmpty()) {
       // We don't. Throw an error

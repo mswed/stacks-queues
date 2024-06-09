@@ -47,7 +47,6 @@ class Queue {
       // We do, remove the first item from the list and return it
       const originalStart = this.first;
       this.first = originalStart.next;
-      originalStart.next = null;
       this.size--
       return originalStart.val
     }
